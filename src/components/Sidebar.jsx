@@ -8,8 +8,6 @@ function Sidebar() {
       <Logo />
       <AppNav></AppNav>
       <Outlet />
-
-      <p>LISTLISTLST</p>
       <footer className={styles.footer}>
         <p className={styles.copyright}>
           &copy; Copyright {new Date().getFullYear()} by Leon
