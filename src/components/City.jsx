@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import styles from "./City.module.css";
 import { useParams } from "react-router-dom";
 
@@ -9,25 +10,29 @@ const formatDate = (date) =>
     weekday: "long",
   }).format(new Date(date));
 
-function City() {
+function City({ cities }) {
   const x = useParams();
   console.log(x);
+  console.log(cities);
   // TEMP DATA
-  const currentCity = {
-    cityName: "Lisbon",
-    emoji: "🇵🇹",
-    date: "2027-10-31T15:59:59.138Z",
-    notes: "My favorite city so far!",
-  };
+  const currentCity = cities.filter((city) => city.id === Number(x.id));
+  console.log(currentCity);
 
-  const { cityName, date, notes } = currentCity;
+  // {
+  //   cityName: "Lisbon",
+  //   emoji: "🇵🇹",
+  //   date: "2027-10-31T15:59:59.138Z",
+  //   notes: "My favorite city so far!",
+  // };
+
+  // const { cityName, date, notes } = currentCity;
 
   return (
     <div className={styles.city}>
       <div className={styles.row}>
         <h6>City name</h6>
         <h3>
-          {cityName} {x.id}
+          {currentCity.cityName} {x.id}
         </h3>
       </div>
 
