@@ -6,14 +6,6 @@ import styles from "./Form.module.css";
 import Button from "./Button";
 import BackButton from "./BackButton";
 
-export function convertToEmoji(countryCode) {
-  const codePoints = countryCode
-    .toUpperCase()
-    .split("")
-    .map((char) => 127397 + char.charCodeAt());
-  return String.fromCodePoint(...codePoints);
-}
-
 function Form() {
   const [cityName, setCityName] = useState("");
   const [country, setCountry] = useState("");

@@ -1,6 +1,18 @@
 {
   "cities": [
     {
+      "cityName": "Frankfurt",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2024-02-12T09:24:11.863Z",
+      "notes": "Great 😃",
+      "position": {
+        "lat": 50.1109,
+        "lng": 8.6821
+      },
+      "id": 98843197
+    },
+    {
       "cityName": "Lisbon",
       "country": "Portugal",
       "emoji": "🇪🇸",
@@ -17,7 +29,7 @@
       "country": "Spain",
       "emoji": "🇪🇸",
       "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
+      "notes": "so sunny🌞",
       "position": {
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
@@ -35,18 +47,6 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
-    },
-    {
-      "cityName": "Hamburg",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98473497
     }
   ]
 }
