@@ -25,18 +25,6 @@
       "id": 73930385
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "so sunny🌞",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
       "cityName": "Berlin",
       "country": "Germany",
       "emoji": "🇩🇪",
@@ -47,6 +35,61 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Caceres",
+      "country": "Spain",
+      "date": "2023-09-22T09:45:24.882Z",
+      "notes": "dewwwwww",
+      "position": {
+        "lat": "39.53735265831314",
+        "lng": "-6.132542172617467"
+      },
+      "id": 98843199
+    },
+    {
+      "cityName": "Koln",
+      "country": "Germany",
+      "date": "2023-09-22T09:51:10.408Z",
+      "notes": "gogogoo",
+      "position": {
+        "lat": "50.93073787768722",
+        "lng": "7.130150152133475"
+      },
+      "id": 98843201
+    },
+    {
+      "cityName": "Arlon",
+      "country": "Belgium",
+      "date": "2023-09-22T09:58:07.760Z",
+      "notes": "alooos",
+      "position": {
+        "lat": "49.679975691364184",
+        "lng": "5.7349081618584306"
+      },
+      "id": 98843202
+    },
+    {
+      "cityName": "Bad Driburg",
+      "country": "Germany",
+      "date": "2023-09-22T14:00:40.940Z",
+      "notes": "dwwwww",
+      "position": {
+        "lat": "51.71341596363492",
+        "lng": "9.049629582210097"
+      },
+      "id": 98843203
+    },
+    {
+      "cityName": "Gladenbach",
+      "country": "Germany",
+      "date": "2023-09-22T14:15:02.047Z",
+      "notes": "frrrr",
+      "position": {
+        "lat": "50.791711582260675",
+        "lng": "8.512660911987508"
+      },
+      "id": 98843204
     }
   ]
 }
