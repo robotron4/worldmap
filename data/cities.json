@@ -48,17 +48,6 @@
       "id": 98843199
     },
     {
-      "cityName": "Koln",
-      "country": "Germany",
-      "date": "2023-09-22T09:51:10.408Z",
-      "notes": "gogogoo",
-      "position": {
-        "lat": "50.93073787768722",
-        "lng": "7.130150152133475"
-      },
-      "id": 98843201
-    },
-    {
       "cityName": "Arlon",
       "country": "Belgium",
       "date": "2023-09-22T09:58:07.760Z",
@@ -68,28 +57,6 @@
         "lng": "5.7349081618584306"
       },
       "id": 98843202
-    },
-    {
-      "cityName": "Bad Driburg",
-      "country": "Germany",
-      "date": "2023-09-22T14:00:40.940Z",
-      "notes": "dwwwww",
-      "position": {
-        "lat": "51.71341596363492",
-        "lng": "9.049629582210097"
-      },
-      "id": 98843203
-    },
-    {
-      "cityName": "Gladenbach",
-      "country": "Germany",
-      "date": "2023-09-22T14:15:02.047Z",
-      "notes": "frrrr",
-      "position": {
-        "lat": "50.791711582260675",
-        "lng": "8.512660911987508"
-      },
-      "id": 98843204
     }
   ]
 }
